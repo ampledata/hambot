@@ -1,0 +1,5 @@
+# requirements.txt for HamBot.
+# Contains non-essential modules, such as those for linting & syntax checking.
+
+flake8
+pylint
