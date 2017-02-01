@@ -32,7 +32,7 @@ publish()
 setuptools.setup(
     name=__title__,
     version=__version__,
-    description='HamBot',
+    description='HamBot - Slack Amateur (Ham) Radio Bot',
     author='Greg Albrecht',
     author_email='oss@undef.net',
     packages=['hambot'],
@@ -47,5 +47,13 @@ setuptools.setup(
         'requests >= 2.8.1',
         'slackbot'
     ],
-    entry_points={'console_scripts': ['hambot = hambot.cmd:cli']}
+    entry_points={'console_scripts': ['hambot = hambot.cmd:cli']},
+    classifiers=[
+        'Topic :: Communications :: Ham Radio',
+        'Programming Language :: Python',
+        'License :: OSI Approved :: Apache Software License'
+    ],
+    keywords=[
+        'Ham Radio'
+    ],
 )

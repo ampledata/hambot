@@ -1,6 +1,11 @@
 HamBot - Slack Amateur (Ham) Radio Bot.
 ***************************************
 
+HamBot is a Bot for Slack focused on Amateur Radio use-cases. Currently HamBot
+supports one command, which is callsign lookup:
+
+.. image:: screenshot.png
+
 Usage
 =====
 
