@@ -9,12 +9,21 @@ supports one command, which is callsign lookup:
 Usage
 =====
 
+You'll need a Slack API Token, which can be generated/retrieved as follows:
+
+1) Go to the Slack Web interface.
+2) Select Apps.
+3) Select Build.
+4) Select Custom.
+5) Select Bots.
+6) Name your bot whatever you'd like.
+7) Copy the API Token.
+
 Run the bot::
 
     export SLACKBOT_API_TOKEN='xoxb-XXXX-XXXX'
     hambot
 
-* https://undefnet.slack.com/apps -> Build -> Custom -> Bots -> hambot -> API Token
 
 Installation
 ============
